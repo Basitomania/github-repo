@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const Star = () => (
+export const Star = (): JSX.Element => (
   <svg className="icon ${starColor}" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
     <path
       fillRule="evenodd"
@@ -9,7 +9,7 @@ export const Star = () => (
   </svg>
 );
 
-export const Forks = () => (
+export const Forks = (): JSX.Element => (
   <svg
     aria-hidden="true"
     viewBox="0 0 16 16"
@@ -26,7 +26,7 @@ export const Forks = () => (
   </svg>
 );
 
-export const Flame = () => (
+export const Flame = (): JSX.Element => (
   <svg className="icon orange" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
     <path
       fillRule="evenodd"
@@ -35,7 +35,7 @@ export const Flame = () => (
   </svg>
 );
 
-export const Book = () => (
+export const Book = (): JSX.Element => (
   <svg
     aria-hidden="true"
     viewBox="0 0 16 16"
@@ -52,7 +52,7 @@ export const Book = () => (
   </svg>
 );
 
-export const Heart = () => (
+export const Heart = (): JSX.Element => (
   <svg
     aria-hidden="true"
     viewBox="0 0 16 16"

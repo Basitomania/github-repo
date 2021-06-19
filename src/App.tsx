@@ -10,7 +10,6 @@ const App = (): JSX.Element => {
 
   const handleClick = (index: number) => {
     setToggleState(index);
-    console.log('clicked', index);
   };
 
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
 
-const Loader = () => <div className="loader" />;
+const Loader = (): JSX.Element => <div className="loader" />;
 
 export default Loader;
