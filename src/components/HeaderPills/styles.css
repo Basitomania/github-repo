@@ -1,0 +1,36 @@
+.header-pills-container {
+  border-bottom: 1px solid #3f4b5a;
+  padding: 15px;
+  background-color: #161b22;
+}
+
+.header-pills-row {
+  align-items: center;
+}
+
+.badge {
+  padding: 1em 4em !important;
+}
+
+.badge-pill {
+  border-radius: 5px !important;
+}
+
+.badge-secondary  {
+  background-color: inherit !important;
+  border: 1px solid #3f4b5a;
+}
+
+.filter-container {
+  display: flex;
+}
+
+.nav-link {
+  padding: 0.1rem !important;
+  color: #fff !important;
+  padding-left: 10px !important;
+}
+
+.dropdown-toggle::after {
+  vertical-align: 0.1rem !important;
+}

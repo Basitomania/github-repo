@@ -1,0 +1,15 @@
+.header {
+  text-align: center;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #3f4b5a;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.header-main-text {
+  font-size: var(--big-font-size);
+}
+
+.header-sub-text {
+  font-size: var(--medium-font-size);
+}
