@@ -13,4 +13,6 @@ body {
 .main-section-container {
   max-width: var(--page-max-width);
   margin: 0 auto;
+  border: 1px solid #3f4b5a;
+  border-radius: 5px;
 }

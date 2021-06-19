@@ -1,0 +1,85 @@
+.developers-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  color: #e1e4e8;
+  border-bottom: 1px solid #3f4b5a;
+}
+
+.first-column {
+  display: flex;
+  flex-direction: inherit;
+  justify-content: space-between;
+  flex: 0 0 25em;
+}
+
+.second-column {
+  flex: 0 0 50em;
+}
+
+.third-column {
+  flex: 0 0 30em;
+}
+
+.developer-name {
+  float: right;
+  margin-left: 10px;
+}
+
+.developer-rank {
+  float: left;
+  padding-right: 20px;
+  padding-top: 30px;
+}
+
+.developer-info-column {
+  flex-direction: column;
+}
+
+.profile-image {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.repo-star-section {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.star-btn {
+  position: relative;
+  display: inline-block;
+  padding: 5px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  appearance: none;
+}
+
+.btn-sponsor {
+  padding-right: 10px;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: text-bottom;
+  fill: #6a737d;
+}
+
+.orange {
+  fill: #ffa657;
+}
+
+.sponsor-color {
+  fill: #6e40c9;
+}

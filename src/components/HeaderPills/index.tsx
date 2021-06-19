@@ -5,7 +5,7 @@ import './styles.css';
 // eslint-disable-next-line max-lines-per-function
 const HeaderPills = () => {
   return (
-    <Container className="header-pills-container">
+    <div className="header-pills-container">
       <Row className="header-pills-row">
         <Col xs="12" sm="6" lg="6">
           <Badge color="primary">Repositories</Badge>
@@ -37,7 +37,7 @@ const HeaderPills = () => {
           </Row>
         </Col>
       </Row>
-    </Container>
+    </div>
   );
 };
 
