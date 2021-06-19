@@ -56,7 +56,8 @@
 }
 
 .repositories-footer-item {
-  padding-right: 15px;
+  float: right;
+  color: #e1e4e8;
 }
 
 /* .repositories-footer-item:last-child {

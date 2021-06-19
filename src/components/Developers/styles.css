@@ -9,22 +9,19 @@
 
 .first-column {
   display: flex;
-  flex-direction: inherit;
-  justify-content: space-between;
-  flex: 0 0 25em;
+  flex-direction: row;
 }
 
 .second-column {
-  flex: 0 0 50em;
+  /* flex: 0 0 50em; */
 }
 
 .third-column {
-  flex: 0 0 30em;
+  /* flex: 0 0 30em; */
 }
 
 .developer-name {
-  float: right;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .developer-rank {
@@ -64,6 +61,8 @@
   border: 1px solid #e1e4e8;
   border-radius: 6px;
   appearance: none;
+  background-color: #3f4b5a;
+  color: white;
 }
 
 .btn-sponsor {

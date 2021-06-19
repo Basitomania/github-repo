@@ -1,38 +1,34 @@
 import React from 'react';
-import { Badge, Col, Container, DropdownToggle, Row, UncontrolledDropdown } from 'reactstrap';
+import { Badge, Col, Row } from 'reactstrap';
 import './styles.css';
+import CustomDropDown from '../CustomDropdown';
+import { HeaderPillsProps } from '../../types';
 
-// eslint-disable-next-line max-lines-per-function
-const HeaderPills = () => {
+const HeaderPills = (props: HeaderPillsProps): JSX.Element => {
+  const { handleTabClick, toggleState } = props;
   return (
     <div className="header-pills-container">
       <Row className="header-pills-row">
         <Col xs="12" sm="6" lg="6">
-          <Badge color="primary">Repositories</Badge>
-          <Badge color="secondary">Developers</Badge>
+          <Badge color={toggleState === 1 ? 'primary' : 'secondary'} onClick={() => handleTabClick(1)}>
+            Repositories
+          </Badge>
+          <Badge color={toggleState === 2 ? 'primary' : 'secondary'} onClick={() => handleTabClick(2)}>
+            Developers
+          </Badge>
         </Col>
         <Col xs="12" sm="6" lg="6" className="filter-container">
           <Row>
-            <Col xs="12" sm="4" lg="4">
-              <UncontrolledDropdown className="d-flex align-items-center" nav inNavbar>
-                <DropdownToggle className="font-weight-bold" nav caret>
-                  Spoken Language: Any
-                </DropdownToggle>
-              </UncontrolledDropdown>
+            {toggleState === 1 && (
+              <Col xs="12" sm="4" lg="4">
+                <CustomDropDown value={'Spoken Language'} />
+              </Col>
+            )}
+            <Col xs="12" sm={toggleState === 1 ? '4' : '6'} lg={toggleState === 1 ? '4' : '6'}>
+              <CustomDropDown value={'Language'} />
             </Col>
-            <Col xs="12" sm="4" lg="4">
-              <UncontrolledDropdown className="d-flex align-items-center" nav inNavbar>
-                <DropdownToggle className="font-weight-bold" nav caret>
-                  Spoken Language: Any
-                </DropdownToggle>
-              </UncontrolledDropdown>
-            </Col>
-            <Col xs="12" sm="4" lg="4">
-              <UncontrolledDropdown className="d-flex align-items-center" nav inNavbar>
-                <DropdownToggle className="font-weight-bold" nav caret>
-                  Date Range: Any
-                </DropdownToggle>
-              </UncontrolledDropdown>
+            <Col xs="12" sm={toggleState === 1 ? '4' : '6'} lg={toggleState === 1 ? '4' : '6'}>
+              <CustomDropDown value={'Date Range'} />
             </Col>
           </Row>
         </Col>
