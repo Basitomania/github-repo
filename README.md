@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The site can be access here [Github-Trwnding](https://suspicious-saha-ff04cb.netlify.app/).
+The site can be access here [Github-Trending](https://suspicious-saha-ff04cb.netlify.app/).
 
 ## Available Scripts
 
