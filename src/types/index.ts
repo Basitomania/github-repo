@@ -1,5 +1,5 @@
 export interface ReactQueryResponse {
-  data: any;
+  data: [];
   error: unknown;
   isLoading: boolean;
 }
@@ -52,5 +52,5 @@ export interface Developer {
 
 export interface ButtonProps {
   value: string;
-  icon?: any;
+  icon?: JSX.Element;
 }
