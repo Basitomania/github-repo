@@ -1,5 +1,5 @@
 export interface ReactQueryResponse {
-  data: [];
+  data: any;
   error: unknown;
   isLoading: boolean;
 }
