@@ -2,6 +2,7 @@
   border-bottom: 1px solid #3f4b5a;
   padding: 15px;
   background-color: #161b22;
+  cursor: pointer;
 }
 
 .header-pills-row {

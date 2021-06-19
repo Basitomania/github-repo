@@ -52,4 +52,5 @@ export interface Developer {
 
 export interface ButtonProps {
   value: string;
+  icon?: any;
 }

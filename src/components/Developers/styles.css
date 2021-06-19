@@ -58,7 +58,7 @@
   vertical-align: middle;
   cursor: pointer;
   user-select: none;
-  border: 1px solid #e1e4e8;
+  border: 1px solid #3f4b5a;
   border-radius: 6px;
   appearance: none;
   background-color: #3f4b5a;
@@ -80,5 +80,5 @@
 }
 
 .sponsor-color {
-  fill: #6e40c9;
+  fill: #FFB6C1;
 }

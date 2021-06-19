@@ -58,12 +58,8 @@
 .repositories-footer-item {
   float: right;
   color: #e1e4e8;
+  padding-right: 10px;
 }
-
-/* .repositories-footer-item:last-child {
-  margin-left: auto;
-  padding-right: 0;
-} */
 
 .repositories-footer-images {
   display: flex;

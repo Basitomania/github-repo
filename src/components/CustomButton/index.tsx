@@ -1,11 +1,12 @@
 import React from 'react';
-import { ButtonProps } from 'reactstrap';
+import { ButtonProps } from '../../types';
 
 const CustomButton = (props: ButtonProps): JSX.Element => {
-  const { value } = props;
+  const { value, icon } = props;
   return (
     <>
       <button className="star-btn btn-sm" value="Star">
+        {icon && icon}
         {value}
       </button>
     </>

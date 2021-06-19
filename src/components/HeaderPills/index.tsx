@@ -9,7 +9,7 @@ const HeaderPills = (props: HeaderPillsProps): JSX.Element => {
   return (
     <div className="header-pills-container">
       <Row className="header-pills-row">
-        <Col xs="12" sm="6" lg="6">
+        <Col xs="12" sm={toggleState === 1 ? '6' : '8'} lg={toggleState === 1 ? '6' : '8'}>
           <Badge color={toggleState === 1 ? 'primary' : 'secondary'} onClick={() => handleTabClick(1)}>
             Repositories
           </Badge>
@@ -17,7 +17,7 @@ const HeaderPills = (props: HeaderPillsProps): JSX.Element => {
             Developers
           </Badge>
         </Col>
-        <Col xs="12" sm="6" lg="6" className="filter-container">
+        <Col xs="12" sm={toggleState === 1 ? '6' : '4'} lg={toggleState === 1 ? '6' : '4'} className="filter-container">
           <Row>
             {toggleState === 1 && (
               <Col xs="12" sm="4" lg="4">
