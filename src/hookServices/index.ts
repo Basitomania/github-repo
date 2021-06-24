@@ -1,5 +1,5 @@
-import { ReactQueryResponse } from './../types/index';
 import { useQuery } from 'react-query';
+import { ReactQueryResponse } from './../types/index';
 import constant from '../constants';
 
 const { REPOSITORIES, REPOSITORIES_API, DEVELOPERS, DEVELOPERS_API } = constant;
